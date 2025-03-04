@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+
 const outOrderSchema = new mongoose.Schema({
   product: {
     type: mongoose.Schema.Types.ObjectId,
