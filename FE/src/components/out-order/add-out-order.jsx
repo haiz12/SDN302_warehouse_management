@@ -13,8 +13,6 @@ const AddOutOrder = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const navigate = useNavigate();
 
-
-  
   const [formData, setFormData] = useState({
     product: "",
     customer: "",
