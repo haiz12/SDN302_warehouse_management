@@ -24,8 +24,6 @@ const AddOutOrder = () => {
     invoice: "",
   });
 
-  
-
   useEffect(() => {
     const fetchData = async () => {
       try {
