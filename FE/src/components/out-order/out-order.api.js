@@ -8,6 +8,3 @@ const DeleteOutOrderAPI = (id) => {
   return axios.delete(URL_BACKEND);
 };
 export { OutOrderAPI, DeleteOutOrderAPI };
-
-
-
