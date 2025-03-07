@@ -18,9 +18,6 @@ const ViewOutOrderDetail = (props) => {
   };
 
 
-
-
-  
   const exportToExcel = () => {
     if (!dataDetail) return;
 
