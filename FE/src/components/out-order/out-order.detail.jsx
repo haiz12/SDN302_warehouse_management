@@ -17,7 +17,6 @@ const ViewOutOrderDetail = (props) => {
     return date ? new Date(date).toLocaleString('vi-VN') : 'N/A';
   };
 
-  
 
   const exportToExcel = () => {
     if (!dataDetail) return;
