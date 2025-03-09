@@ -9,9 +9,7 @@ const OutOrder = () => {
     const [total, setTotal] = useState(0);
     useEffect(() => {
         loadOutOrder();
-
-
-        
+  
     }, [current, pageSize]);
 
     const loadOutOrder = async () => {
