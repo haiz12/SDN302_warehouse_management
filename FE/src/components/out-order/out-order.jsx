@@ -10,6 +10,8 @@ const OutOrder = () => {
     useEffect(() => {
         loadOutOrder();
 
+
+        
     }, [current, pageSize]);
 
     const loadOutOrder = async () => {
