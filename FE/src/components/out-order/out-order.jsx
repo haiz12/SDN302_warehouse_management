@@ -12,8 +12,6 @@ const OutOrder = () => {
   
     }, [current, pageSize]);
 
-
-    
     const loadOutOrder = async () => {
         try {
             // Kiểm tra giá trị của current trước khi gọi API
